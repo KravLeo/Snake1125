@@ -55,6 +55,7 @@ namespace ConsoleApp18
                 if (snake.Count > 1 && oldDirection != direction && oldDirection % 2 == direction % 2) // если направление было изменено на противоположное
                 {
                     GameOver(); // закончить игру
+                    Restart();
                 }
                 Console.SetCursorPosition(0, 0);
             }
@@ -76,6 +77,7 @@ namespace ConsoleApp18
                 if (CheckSnakeIntersect()) // проверка на то, что змейка пересекла себя
                 {
                     GameOver(); // стоп игры и вывод итогов
+                    
                 }
                 else if (SnakeEatApple()) // проверка на то, что змейка пересекла яблоко
                 {

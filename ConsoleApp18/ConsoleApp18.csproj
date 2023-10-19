@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoSnake.cs" />
     <Compile Include="ChangeGamePause.cs" />
     <Compile Include="ChangeHeadCoordinate.cs" />
     <Compile Include="CheckPressedKey.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="InitSnake.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Restart.cs" />
     <Compile Include="SnakeEatApple.cs" />
     <Compile Include="SnakeEatsPoisonApple.cs" />
     <Compile Include="SnakeEatsPoisonApple.Designer.cs">
